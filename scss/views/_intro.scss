@@ -1,0 +1,24 @@
+@import "../utilities/variables";
+
+
+.intro-content {
+    background-color: silver;
+    font-family: $font-global;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 4rem;
+    .intro-header {
+        background-color: yellow;
+        font-size: 1.5rem;
+        font-weight: $weight-3;
+        margin: 0;
+    }
+    .intro-body {
+        background-color: blue;
+        font-size: 40px;
+        margin: 0;
+    }
+    .intro-footer {
+        background-color: red;
+    }
+}

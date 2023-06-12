@@ -9,6 +9,8 @@ header {
     background-color: blue;
     display: flex;
     height: 80px;
+    display: flex;
+    flex-direction: column;
     .favicon {
         display: flex;
         align-items: center;
@@ -26,7 +28,7 @@ header {
             h4 {
                 font-family: $font-global;
                 font-weight: $weight-4;
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
         }
     }
@@ -34,6 +36,8 @@ header {
         background-color: red;
         padding: 0;
         display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
         .nav-object {
             background-color: yellow;
             list-style: none;

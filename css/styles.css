@@ -7,6 +7,8 @@ header {
   background-color: blue;
   display: flex;
   height: 80px;
+  display: flex;
+  flex-direction: column;
 }
 .nav-container .favicon {
   display: flex;
@@ -27,12 +29,14 @@ header {
 .nav-container .favicon .logo-text h4 {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .nav-container .nav-list {
   background-color: red;
   padding: 0;
   display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
 }
 .nav-container .nav-list .nav-object {
   background-color: yellow;
@@ -45,12 +49,26 @@ header {
   font-weight: 500;
 }
 
-html {
-  font-size: 62.5%;
+.intro-content {
+  background-color: silver;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 4rem;
 }
-
-* {
-  margin: 0 auto;
+.intro-content .intro-header {
+  background-color: yellow;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.intro-content .intro-body {
+  background-color: blue;
+  font-size: 40px;
+  margin: 0;
+}
+.intro-content .intro-footer {
+  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
