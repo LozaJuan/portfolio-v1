@@ -1,0 +1,52 @@
+@import "../utilities/variables";
+
+header {
+    background-color: red;
+}
+
+
+.nav-container {
+    background-color: blue;
+    display: flex;
+    height: 80px;
+    .favicon {
+        display: flex;
+        align-items: center;
+        .logo-profile {
+            max-width: 48px;
+            border-radius: 50%;
+            padding-right: 5px;
+        }
+        .logo-text {
+            color: black;
+            text-decoration: none;
+            display: flex;
+            height: 27px;
+            align-items: center;
+            h4 {
+                font-family: $font-global;
+                font-weight: $weight-4;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .nav-list {
+        background-color: red;
+        padding: 0;
+        display: flex;
+        .nav-object {
+            background-color: yellow;
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: $font-global;
+            font-weight: $weight-3;
+        }
+    }
+}
+
+
+
+
