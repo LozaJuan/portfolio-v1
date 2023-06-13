@@ -58,9 +58,10 @@ header {
 }
 .intro-content .intro-header {
   background-color: yellow;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   margin: 0;
+  text-transform: uppercase;
 }
 .intro-content .intro-body {
   background-color: blue;
@@ -69,6 +70,19 @@ header {
 }
 .intro-content .intro-footer {
   background-color: red;
+}
+
+.about-container {
+  background-color: aqua;
+  text-align: center;
+}
+.about-container .about-header {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+.about-container .about-profile {
+  width: 170px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */

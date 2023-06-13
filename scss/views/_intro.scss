@@ -9,9 +9,10 @@
     padding: 2rem 0 4rem;
     .intro-header {
         background-color: yellow;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: $weight-3;
         margin: 0;
+        text-transform: uppercase;
     }
     .intro-body {
         background-color: blue;
