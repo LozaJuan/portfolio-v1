@@ -73,16 +73,53 @@ header {
 }
 
 .about-container {
-  background-color: aqua;
+  background-color: yellow;
   text-align: center;
+  padding-bottom: 20px;
 }
 .about-container .about-header {
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
+  padding-top: 10px;
 }
 .about-container .about-profile {
   width: 170px;
   border-radius: 50%;
+}
+.about-container .about-body {
+  font-family: "Rubik", sans-serif;
+}
+.about-container .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+.about-container .skills-container .skills-title {
+  background-color: blue;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+.about-container .skills-container .skills-cards {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+.about-container .skills-container .skills-cards .skill-item {
+  background-color: aqua;
+  width: 25%;
+  margin: 0 auto;
+}
+.about-container .skills-container .skills-cards .skill-item .skill-icon {
+  width: 40px;
+}
+.about-container .skills-container .skills-cards .skill-item .skill-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
