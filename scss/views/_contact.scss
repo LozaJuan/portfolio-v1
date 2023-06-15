@@ -1,0 +1,26 @@
+.contact-container {
+    background-color: yellow;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5% 0;
+    font-family: $font-global;
+    .contact-ico {
+        width: 40px;
+    }
+    .contact-title {
+        font-size: 20px;
+    }
+    .contact-body {
+    }
+    .contact-button {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: $weight-3;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 2%;
+    }
+}

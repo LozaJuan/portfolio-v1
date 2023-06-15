@@ -8,13 +8,16 @@
     }
     .resume-button {
         margin: 0 auto;
-        width: 150px;
-        border-style: solid;
-        border-radius: 10px;
+        display: flex;
+        justify-content: center;
         .button-item {
+            text-decoration: none;
             text-transform: capitalize;
             font-size: 20px;
             font-weight: $weight-3;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 2%;
         }
     }
 }
