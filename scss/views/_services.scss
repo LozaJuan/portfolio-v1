@@ -1,5 +1,5 @@
 .services-container {
-    background-color: blue;
+    background-color: yellow;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16,6 +16,7 @@
         }
         .service-head {
             font-size: 22px;
+            font-weight: $weight-3;
         }
         .service-body {
             padding: 0 10px;

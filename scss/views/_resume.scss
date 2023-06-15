@@ -1,0 +1,20 @@
+.resume-container {
+    background-color: yellow;
+    text-align: center;
+    font-family: $font-global;
+    padding: 10px 0;
+    .resume-title {
+        text-transform: uppercase;
+    }
+    .resume-button {
+        margin: 0 auto;
+        width: 150px;
+        border-style: solid;
+        border-radius: 10px;
+        .button-item {
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: $weight-3;
+        }
+    }
+}

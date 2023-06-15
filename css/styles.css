@@ -97,20 +97,17 @@ header {
   margin: 0 auto;
 }
 .about-container .skills-container .skills-title {
-  background-color: blue;
   width: 100%;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
 }
 .about-container .skills-container .skills-cards {
-  background-color: red;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
 }
 .about-container .skills-container .skills-cards .skill-item {
-  background-color: aqua;
   width: 25%;
   margin: 0 auto;
 }
@@ -124,7 +121,7 @@ header {
 }
 
 .services-container {
-  background-color: blue;
+  background-color: yellow;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -141,9 +138,31 @@ header {
 }
 .services-container .service-card .service-head {
   font-size: 22px;
+  font-weight: 500;
 }
 .services-container .service-card .service-body {
   padding: 0 10px;
+}
+
+.resume-container {
+  background-color: yellow;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  padding: 10px 0;
+}
+.resume-container .resume-title {
+  text-transform: uppercase;
+}
+.resume-container .resume-button {
+  margin: 0 auto;
+  width: 150px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.resume-container .resume-button .button-item {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */
