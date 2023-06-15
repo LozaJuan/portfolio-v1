@@ -1,0 +1,25 @@
+.services-container {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: $font-global;
+    margin: 15px 0;
+    .services-title {
+        font-weight: $weight-4;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    .service-card {
+        .service-ico {
+            width: 65px;
+        }
+        .service-head {
+            font-size: 22px;
+        }
+        .service-body {
+            padding: 0 10px;
+        }
+    }
+    
+}

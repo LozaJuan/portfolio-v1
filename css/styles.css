@@ -100,6 +100,7 @@ header {
   background-color: blue;
   width: 100%;
   font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
 }
 .about-container .skills-container .skills-cards {
   background-color: red;
@@ -120,6 +121,29 @@ header {
   font-family: "Rubik", sans-serif;
   font-size: 14px;
   width: 100%;
+}
+
+.services-container {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin: 15px 0;
+}
+.services-container .services-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.services-container .service-card .service-ico {
+  width: 65px;
+}
+.services-container .service-card .service-head {
+  font-size: 22px;
+}
+.services-container .service-card .service-body {
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
