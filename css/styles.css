@@ -54,6 +54,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 .footer-container .footer-networks {
   background-color: rgba(38, 117, 131, 0.5);
@@ -71,6 +72,10 @@ header {
 }
 .footer-container .footer-copyright {
   font-family: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
 }
 
 .intro-content {
@@ -136,8 +141,8 @@ header {
   width: 25%;
   margin: 0 auto;
 }
-.about-container .skills-container .skills-cards .skill-item .skill-icon {
-  width: 40px;
+.about-container .skills-container .skills-cards .skill-item .fa-paw, .about-container .skills-container .skills-cards .skill-item .fa-microchip, .about-container .skills-container .skills-cards .skill-item .fa-code {
+  font-size: 30px;
 }
 .about-container .skills-container .skills-cards .skill-item .skill-text {
   font-family: "Rubik", sans-serif;
@@ -158,8 +163,9 @@ header {
   text-transform: uppercase;
   font-size: 28px;
 }
-.services-container .service-card .service-ico {
-  width: 65px;
+.services-container .service-card .fa-laptop-code, .services-container .service-card .fa-paintbrush {
+  font-size: 50px;
+  padding: 5px;
 }
 .services-container .service-card .service-head {
   font-size: 22px;
@@ -203,8 +209,8 @@ header {
   padding: 5% 0;
   font-family: "Rubik", sans-serif;
 }
-.contact-container .contact-ico {
-  width: 40px;
+.contact-container .fa-paper-plane {
+  font-size: 40px;
 }
 .contact-container .contact-title {
   font-size: 20px;

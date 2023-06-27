@@ -10,15 +10,15 @@
     </head>
     <body>
         <header>
-            <nav class="nav-container">
+            <nav class="nav-container" id="top-page">
                 <div class="favicon">
                     <img class="logo-profile" src="img/1683715678163.jpeg" alt="logo profile">
                     <a class="logo-text" href="index.html"><h4>Juan Loza</h4></a>
                 </div>
                 <ul class="nav-list">
-                    <li class="nav-object">Home</li>
+                    <li class="nav-object"><a href="#top-page">Home</a></li>
                     <li class="nav-object">Proyects</li>
-                    <li class="nav-object">Contact</li>
+                    <li class="nav-object"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,16 +40,16 @@
                     <h3 class="skills-title">Skills</h3>
                     <div class="skills-cards">
                         <div class="skill-item">
-                            <img class="skill-icon" src="img/internet_world_wide_web.png" alt="icon web">
+                            <i class="fa-solid fa-code"></i>
                             <h4 class="skill-text">Web Developer</h4>
                         </div>
                         <div class="skill-item">
-                            <img class="skill-icon" src="img/microchip.png" alt="chip">
-                            <h4 class="skill-text">Electronic Enthusiast</h4>
+                            <i class="fa-solid fa-microchip"></i>
+                            <h4 class="skill-text">Technology Enthusiast</h4>
                         </div>
                         <div class="skill-item">
-                            <img class="skill-icon" src="img/skate.png" alt="skate">
-                            <h4 class="skill-text">Skater</h4>
+                            <i class="fa-solid fa-paw"></i>
+                            <h4 class="skill-text">Animal Lover</h4>
                         </div>
                     </div>
                 </div>
@@ -59,13 +59,12 @@
             <div class="services-container">
                 <h3 class="services-title">What i do</h3>
                 <div class="service-card">
-                    <img class="service-ico" src="img/website-design.ico" alt="website design">
+                    <i class="fa-solid fa-paintbrush"></i>
                     <h3 class="service-head">Design</h3>
                     <p class="service-body">In summary, as a designer, my focus goes beyond the visual appearance of a product. I strive to create designs that are functional, intuitive, and satisfying for users across all digital platforms.</p>
                 </div>
                 <div class="service-card">
-                    <img class="service-ico" src="img/code-optimization.ico" alt="code screen">
-                    <h3 class="service-head">Development</h3>
+                    <i class="fa-solid fa-laptop-code"></i>                    <h3 class="service-head">Development</h3>
                     <p class="service-body">With a strong background in computer science, I'm passionate about web design and development, as well as mobile app development.</p>
                     <p class="service-body">As I grow as a developer, my aim is to write clean and readable code that others can use and leverage to create beautiful software.</p>
                 </div>
@@ -84,8 +83,7 @@
         </section>
         <section id="contact">
             <div class="contact-container">
-                <img class="contact-ico" src="img/send.ico" alt="send">
-                <h3 class="contact-title">Get in touch!</h3>
+                <i class="fa-regular fa-paper-plane"></i>                <h3 class="contact-title">Get in touch!</h3>
                 <p class="contact-body">Whether you have an idea for a project or just want to chat, feel free to email me!</p>
                 <a class="contact-button" href="">Say hello</a>
             </div>
@@ -110,7 +108,9 @@
                     </li>
                 </ul>
                 <div class="footer-up">
-                    <i class="fa-solid fa-circle-up"></i>
+                    <a href="#top-page">
+                        <i class="fa-solid fa-circle-up"></i>
+                    </a>
                 </div>
                 <div class="footer-copyright">
                     <p>Made with love juanloza©</p>

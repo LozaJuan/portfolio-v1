@@ -38,8 +38,8 @@
             .skill-item {
                 width: 25%;
                 margin: 0 auto;
-                .skill-icon {
-                    width: 40px;
+                .fa-paw, .fa-microchip, .fa-code {
+                    font-size: 30px;
                 }
                 .skill-text {
                     font-family: $font-global;
